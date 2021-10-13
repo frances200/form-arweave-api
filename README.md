@@ -86,8 +86,55 @@ In this section you will see everything the API can do and how to interact with 
 ### Updating data
 
 * **Update by row ID in database:** <br>`PUT: localhost:3000/form/:id`<br><br>
+  Body (with example data):
+```json
+{
+  "user_id": "0",
+  "question_id": "1",
+  "chapter_name": "test",
+  "textfield_1": "this is a test for textfield_1",
+  "textfield_2": "this is a test for textfield_2",
+  "optional_1": "optional field 1",
+  "optional_2": "optional field 2",
+  "optional_3": "optional field 3",
+  "optional_4": "optional field 4",
+  "optional_5": "optional field 5"
+}
+```
+
 * **Update by transaction ID:** <br>`PUT: localhost:3000/form/transaction/:id`<br><br>
+  Body (with example data):
+```json
+{
+  "user_id": "0",
+  "question_id": "1",
+  "chapter_name": "test",
+  "textfield_1": "this is a test for textfield_1",
+  "textfield_2": "this is a test for textfield_2",
+  "optional_1": "optional field 1",
+  "optional_2": "optional field 2",
+  "optional_3": "optional field 3",
+  "optional_4": "optional field 4",
+  "optional_5": "optional field 5"
+}
+```
+
 
 ### Inserting data (Also creates transaction)
 
 * **Insert data and create transaction:** <br>`POST: localhost:3000/form`<br><br>
+Body (with example data):
+```json
+{
+  "user_id": "0",
+  "question_id": "1",
+  "chapter_name": "test",
+  "textfield_1": "this is a test for textfield_1",
+  "textfield_2": "this is a test for textfield_2",
+  "optional_1": "optional field 1",
+  "optional_2": "optional field 2",
+  "optional_3": "optional field 3",
+  "optional_4": "optional field 4",
+  "optional_5": "optional field 5"
+}
+```
