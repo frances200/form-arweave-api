@@ -62,8 +62,11 @@ DATABASE_PASSWORD=password
 ```sh
 mysql -u root -p < {path to .sql file, found in /dao/setup.sql}
 ```
+**Default password is `root`*
 
-5. Run `node app.js` found in the root folder
+5. Replace `./arweave/keyfile.json` with your own wallet keyfile.json *(has to have this name)*
+
+6. Run `node app.js` found in the root folder
 
 ## Usage
 
