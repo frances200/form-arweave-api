@@ -1,0 +1,5 @@
+/node_modules/
+/arweave/keyfile.json
+/package-lock.json
+/.env
+/.idea/
